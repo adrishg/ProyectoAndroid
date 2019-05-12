@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:weightSum="4"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+            android:id="@+id/clic"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:text="Click XML"
+            android:onClick="click"/>
+    <Button
+            android:id="@+id/botondos"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:text="Click Kotlin"/>
+    <Button
+            android:id="@+id/longclick"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:text="Long Click"/>
+
+    <Button
+            android:id="@+id/focus"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:text="Focus y OnKey"/>
+    <Button
+            android:id="@+id/drag"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:text="Drag con onTouch"/>
+
+    <Button
+            android:id="@+id/dibujar"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:text="Dibujar con OnTouch"/>
+
+    <Button
+            android:id="@+id/swip"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:text="Swipe con onTouch"/>
+
+</LinearLayout>
